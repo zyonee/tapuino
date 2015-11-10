@@ -2,7 +2,7 @@
 #ifndef _CONFIG_H
 #define _CONFIG_H
 
-#include "config-user.h"
+#include "config_user.h"
 
 // thanks stack overflow: http://stackoverflow.com/questions/4301471/c-macro-to-test-if-more-than-one-defined
 #if defined(LCD_USE_SSD1306_OLED_MODULE) + defined(LCD_USE_1602_LCD_MODULE) + defined(LCD_USE_SSD131X_OLED_MODULE) != 1
